@@ -5,14 +5,15 @@ Moreover, the cost associated with obtaining accurate image interpretations is h
 
 
 # Proposed Solution
-To address the challenges posed by misclassification of chest X-ray images in diseases such as Pneumonia, Tuberculosis, and Breast Cancer, a solution leveraging Convolutional Neural Networks (CNNs) and deep learning(DL) can be implemented. By utilizing transfer learning techniques and the VGG19 CNN architecture, an automated tool can accurately classify these images, aiding in timely and accurate diagnoses.
+To address the challenges posed by misclassification of chest X-ray images in diseases such as Pneumonia, Tuberculosis, and Breast Cancer, a solution leveraging Convolutional Neural Networks (CNNs) and deep learning(DL) can be implemented. By utilizing transfer learning techniques and the VGG19 CNN architecture, an image diagnostic tool can classify these images, aiding in timely and imporved accurate diagnoses, hence reducing the number of False Positives and Negatives.
 
 The proposed solution involves a doctor uploading the patient's X-ray images to the tool, which applies the trained CNN model to analyze and classify the images. The output result is then reviewed by the doctor, who further verifies it based on their expertise in the medical field. This collaborative approach ensures a reliable diagnosis while saving time and cost.
 
 By implementing this solution, doctors and hospitals particularly in rural areas can diagnose a larger number of patients at a cheaper rate, significantly reducing the burden of late image reading or inaccurate interpretations. This tool not only enhances diagnostic accuracy but also complements the doctor's clinical expertise, enabling them to provide more efficient and affordable healthcare services to the population. Ultimately, this solution contributes to improved healthcare outcomes, reduced mortality rates, and increased accessibility of accurate diagnostic services in resource-constrained regions, as highlighted in the problem statement.
 
+
 # Models Performances
-To build the image diagnostic tool, 3 X-ray Image datasets were used : Tuberculosis Dataset with 2 classes (Normal and Tuberculosis) of 1400 images, BreastCancer Dataset containing 2 classes(benign and Malignant) with 647 images & Pneumonia Dataset containing 2 classes(pneumonia and normal) with 1270 images. <br />
+To build the current image diagnostic tool, 3 X-ray Image datasets were used : Tuberculosis Dataset with 2 classes (Normal and Tuberculosis) of 1400 images, BreastCancer Dataset containing 2 classes(benign and Malignant) with 647 images & Pneumonia Dataset containing 2 classes(pneumonia and normal) with 1270 images. <br />
 To construct the model, the concept of Transfer Learning was employed, utilizing the vgg19 convolutional neural network from imagenet. <br /> 
 Three distinct models were then developed using these datasets to address various inefficiencies. These include tackling issues such as inaccurate image classification caused by human errors, overwhelmed doctors faced with a substantial influx of patients requiring X-ray image interpretations, high costs associated with imaging and subsequent diagnose.<br />
 The results on the test data were as shown in the following Confusion matrix graphs and classification reports:  <br />
@@ -31,4 +32,11 @@ The results on the test data were as shown in the following Confusion matrix gra
   ![image](https://github.com/john-thuo1/deep_learning_diagnostic_tool/assets/108690517/676d81f1-a02b-4ee6-8389-45e26ed48e0c)<br />
      Classification Report from Breast Cancer test data<br />
     ![image](https://github.com/john-thuo1/deep_learning_diagnostic_tool/assets/108690517/2110bdd8-df36-44ac-8efb-bf1670741b00)
+
+# Future Steps
+1. Increased data complexities in the datasets used. Such include increasing the number of classes for each disease. e.g Breast Cancer could either be malignant, benign or normal. Same to the other datasets.
+2. Using larger datasets to improve on the accuracy of the model. Techniques I could apply on the current datasets include Data Augmentation but I currently don't have enough Compute to do so.
+3. Adding more models trained on other diseases.
+4. Research and implementation of  better performing algorithms for faster and more accurate diagnosis.
+5. Further Testing on the models included and researching on the overall implication of having such a tool in various Hospitals in rural areas.
 
