@@ -34,9 +34,9 @@ The results on the test data were as shown in the following Confusion matrix gra
     ![image](https://github.com/john-thuo1/deep_learning_diagnostic_tool/assets/108690517/2110bdd8-df36-44ac-8efb-bf1670741b00)
 
 # Future Steps
-1. Increased data complexities in the datasets used. Such include increasing the number of classes for each disease. e.g Breast Cancer could either be malignant, benign or normal. Same to the other datasets.
-2. Using larger datasets to improve on the accuracy of the model. Techniques I could apply on the current datasets include Data Augmentation but I currently don't have enough Compute to do so.
+1. Increasing dataset complexities. Such include increasing the number of classes for each disease. e.g Breast Cancer could either be malignant, benign or normal. Same to the other datasets.
+2. Using larger datasets to improve on the accuracy of the model. Techniques I could apply on the current datasets include Data Augmentation but I currently don't have enough Computing Resources to do so.
 3. Adding more models trained on other diseases.
-4. Research and implementation of  better performing algorithms for faster and more accurate diagnosis.
+4. Research and implementation of  better performing algorithms for faster and more accurate Image Classification.
 5. Further Testing on the models included and researching on the overall implication of having such a tool in various Hospitals in rural areas.
 
