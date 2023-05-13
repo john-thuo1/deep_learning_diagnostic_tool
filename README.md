@@ -18,5 +18,5 @@ The results on the test data were as shown in the following Confusion matrix gra
     
  3.![image](https://github.com/john-thuo1/deep_learning_diagnostic_tool/assets/108690517/f040f3a6-f772-4fb4-b75d-be6207105e58)<br />
     Classification Report from Breast Cancer test data<br />
-    ![image](https://github.com/john-thuo1/deep_learning_diagnostic_tool/assets/108690517/8a3def6c-78b7-4936-85c3-8fd3b5a122a2)<br />
+    ![image](https://github.com/john-thuo1/deep_learning_diagnostic_tool/assets/108690517/2110bdd8-df36-44ac-8efb-bf1670741b00)
 
