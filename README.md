@@ -1,5 +1,6 @@
 # Problem
 The misclassification of chest X-ray images depicting diseases like Pneumonia, Tuberculosis, and Breast Cancer presents a significant challenge in healthcare. Accurate interpretation of these images is crucial for timely diagnosis and appropriate treatment planning. In Africa, during the period of 2020-2021, a substantial number of individuals were identified with these diseases, and unfortunately, a considerable proportion succumbed to late image reading or inaccurate interpretations by doctors. The statistics reveal that out of the total population screened for chest X-rays, approximately 20% were misclassified, leading to delayed intervention and compromised patient outcomes.<br />
+
 Moreover, the cost associated with obtaining accurate image interpretations is high, particularly in rural areas where healthcare facilities are limited. This financial burden further exacerbates the problem, preventing patients from accessing timely and accurate diagnoses, thereby compromising their chances of recovery. Addressing these challenges is essential to improve healthcare outcomes, reduce mortality rates, and enhance the affordability and availability of diagnostic services in resource-constrained regions.
 
 
