@@ -5,8 +5,7 @@ The repo contains an implementation of a diagnostic tool used to classify chest 
 # Model Performances
 To build the image diagnostic tool, 3 X-ray Image datasets were used : Tuberculosis Dataset with 2 classes (Normal and Tuberculosis) of 1400 images, BreastCancer Dataset containing 2 classes(benign and Malignant) with 647 images & Pneumonia Dataset containing 2 classes(pneumonia and normal) with 1270 images. <br />
 To construct the model, the concept of Transfer Learning was employed, utilizing the vgg19 convolutional neural network from imagenet. <br /> 
-Three distinct models were then developed using these datasets to address various inefficiencies. These include tackling issues such as inaccurate image classification caused by human errors, relieving overwhelmed doctors faced with a substantial influx of patients requiring X-ray image interpretations, mitigating the high costs associated with imaging and subsequent diagnoses, and ultimately reducing delays in delivering results due to the large number of patients involved.
-
+Three distinct models were then developed using these datasets to address various inefficiencies. These include tackling issues such as inaccurate image classification caused by human errors, overwhelmed doctors faced with a substantial influx of patients requiring X-ray image interpretations, high costs associated with imaging and subsequent diagnose.<br />
 The results on the test data were as shown in the following Confusion matrix graphs and classification reports:  <br />
 
  1. ![image](https://github.com/john-thuo1/deep_learning_diagnostic_tool/assets/108690517/1157e87b-a4a6-4e63-a5d1-2ed0b17165c0) <br />
