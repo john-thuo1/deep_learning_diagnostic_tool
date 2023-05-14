@@ -7,7 +7,7 @@ import os
 
 model_path = "./pneumoniaClassifier.h5"
 
-@st.cache_resource
+# @st.cache_resource
 def load_model():
     try:
         with tf.device('/cpu:0'): 
