@@ -1,3 +1,6 @@
+# Project Demo
+link : [Demo](https://www.youtube.com/watch?v=YyqwaAWNhw4)
+
 # Problem
 The misclassification of chest X-ray images depicting diseases like Pneumonia, Tuberculosis, and Breast Cancer presents a significant challenge in healthcare. Accurate interpretation of these images is crucial for timely diagnosis and appropriate treatment planning. In Africa, during the period of 2020-2021, a substantial number of individuals were identified with these diseases, and unfortunately, a considerable proportion succumbed to late image reading or inaccurate interpretations by doctors. The statistics reveal that out of the total population screened for chest X-rays, approximately 20% were misclassified, leading to delayed intervention and compromised patient outcomes.<br />
 
@@ -35,7 +38,13 @@ The results on the test data were as shown in the following Confusion matrix gra
 
 
 # Steps to run the Application Locally
-1. SCRM
+1. Download all the models required for this application from :
+ [here](https://drive.google.com/drive/folders/1T4mN9k_82RwVyT1Ad9eYFEjT_GW3ineZ?usp=sharing).
+ 
+2. Git clone this repository and set up a virtual env on your project.
+3. Run this command on your Project's terminal run : pip install -r requirements.txt . This will install all the dependencies used.
+4. Followed by this command : streamlit run home_page.py
+5. Check your browser for the running project
 
 # Future Steps
 1. Increasing dataset complexities. Such include increasing the number of classes for each disease. e.g Breast Cancer could either be malignant, benign or normal. Same to the other datasets.
